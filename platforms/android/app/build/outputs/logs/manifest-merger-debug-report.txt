@@ -1,33 +1,9 @@
 -- Merging decision tree log ---
 manifest
-<<<<<<< HEAD
-ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
-MERGED from [:tbxml-android:] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\0dcf79ca2d2fd5426771f949f3ccbe1c\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\d815229402cd6dd95cb8970a7e42e156\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\dd70722b1e8518366a9e1cdd3181505a\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\6d952bfcafbf387bc987f316a0664974\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\92ad714ef0db3d5770c96b22f6c2f0fc\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\7e882f2cb886c92e0c024f3425a0e31f\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\45dc1eacf060833b016a6c312eb9d39b\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\27528b5681df4b783d35c78a8563b6b4\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8bcd035a2b7e5ed2ed6d5146ebb7db93\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\9fbbc40aae967d4a38cf505d68f8bd04\AndroidManifest.xml:17:1-22:12
-MERGED from [:CordovaLib] C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc942797bf273fbcc52d65995a4b6e12\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\3595ed9b186a79b23ef90d17e5a9a72c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e01f0553fb19c72e0f43f0795cd3a9c8\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b5771da4fc968ee5470d44b506df3e07\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
-=======
-ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [:tbxml-android:] C:\Users\eamon\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\8abcad0afe07130668a23da855c7572f\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\eamon\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\b3b8a8450dff82fc0651abba167378d0\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\eamon\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\f487b2bcf27809a73aa7739a80a4329c\AndroidManifest.xml:2:1-9:12
@@ -43,10 +19,9 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\eamon\.gr
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\eamon\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c7f598588a371b24b38af6ba3675d312\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\eamon\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\cfb2e0b72ab7dbd57cb2be0ecf503f76\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\eamon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c07a5846fdb078854500ee8e3678f815\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
->>>>>>> overview_candidates_polls
+INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:102-143
 		INJECTED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml
@@ -220,15 +195,11 @@ ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\andr
 uses-feature#android.hardware.location.gps
 ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:21:5-66
 	android:name
-<<<<<<< HEAD
-		ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:21:19-63
-uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
-ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:22:5-89
-	android:name
-		ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:22:22-86
-=======
 		ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:21:19-63
->>>>>>> overview_candidates_polls
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:22:5-89
+	android:name
+		ADDED from C:\Users\eamon\OneDrive\Documents\GitHub\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:22:22-86
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\eamon\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\dad0951c2b6740d8d940f60b5f95e6b0\AndroidManifest.xml:23:9-26:75
 	android:exported
