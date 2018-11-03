@@ -33,39 +33,54 @@
    
     <body>
         <div>
-            <h3>Political Parties in Connecticut</h3>
-            <table class="table table-border">
+            <h3 >Political Parties in Connecticut</h3>
+            <table class="table table-bordered">
                 <thead>
                     <th>Party Name</th>
                     <th>Details</th>
                 </thead>
                 <tbody>
-                    <tr onclick="viewDetail()">
-                        <td>Connecticut Communist Party</td>
+                    <tr onclick="viewDetail('commies')">
+                        <td><p>Connecticut Communist Party</p>
+                            <img class="img-parties" src="img/commies.png">
+                        </td>
                         <td>The Communist Party USA, officially the Communist Party of the United States of America, is a communist party in the United States established in 1919 after a split in the Socialist Party of America</td>
                     </tr>
                     <tr onclick="viewDetail()">
-                        <td>Connecticut Republican Party</td>
+                        <td><p>Connecticut Republican Party</p>
+                            <img class="img-parties" src="img/republican.png">
+                        </td>
                         <td>The Connecticut Republican Party is the Connecticut affiliate of the U.S. Republican Party. J.R. Romano, a Derby resident and campaign organizer, is the party chairman, elected June 23, 2015.</td>
                     </tr>
                     <tr onclick="viewDetail()">
-                        <td>Connecticut Democratic Party</td>
+                        <td><p>Connecticut Democratic Party</p>
+                            <img class="img-parties" src="img/dems.png">
+                        </td>
                         <td>The Connecticut Democratic State Central Committee (CT Dems) is the affiliate of the Democratic Party in the state of Connecticut. The state chair of the party is Nick Balletto, and the Vice Chair is Nancy DiNardo.[1] The Democratic Party controls both chambers of the state legislature, all constitutional state offices and all five of Connecticut's seats in the House and both of its Senate seats.</td>
                     </tr>
                     <tr onclick="viewDetail()">
-                        <td>Connecticut Green Party</td>
+                        <td><p>Connecticut Green Party</p>
+                            <img class="img-parties" src="img/green.png">
+                        </td>
                         <td>The Connecticut Green Party is the Connecticut affiliate of the Green Party of the United States. It is governed by three co-chairs, one of whom must be a woman, all of whom are elected at their Annual Meeting each May. The party is committed to grassroots democracy, social justice, non-violence and ecological wisdom.</td>
                     </tr>
                     <tr onclick="viewDetail()">
-                        <td>Libertarian Party of Connecticut</td>
+                        <td><p>Libertarian Party of Connecticut</p>
+                            <img class="img-parties" src="img/libertarian.png">
+                        </td>
                         <td>The Libertarian Party of Connecticut is a statewide affiliate of the U.S. Libertarian Party. According to the bylaws posted on its web site, the Connecticut Libertarian Party has the basic aims of furthering individual freedom and opposing the initiation of force against individuals, among other things.</td>
                     </tr>
                     <tr onclick="viewDetail()">
-                        <td>Socialist Labor Party</td>
+                        <td>
+                            <p>Socialist Labor Party</p>
+                            <img class="img-parties" src="img/socialist.png">
+                        </td>
                         <td>The Socialist Labor Party, is the oldest socialist political party in the United States, being established in 1876; and the second oldest socialist party in the world still in existence.</td>
                     </tr>
                     <tr onclick="viewDetail()">
-                        <td>Working Families Party</td>
+                        <td><p>Working Families Party</p>
+                            <img class="img-parties" src="img/working_families.png">
+                        </td>
                         <td>The Working Families Party is a minor political party in the United States, founded in New York in 1998. There are active chapters in New York, Connecticut, Oregon, New Jersey, Maryland, Washington D.C., Pennsylvania, Wisconsin, Rhode Island, Nevada, West Virginia, New Mexico, Ohio, and Illinois..</td>
                     </tr>
                 </tbody>
@@ -73,7 +88,7 @@
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/home.js"></script>
+        <script type="text/javascript" src="js/parties.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

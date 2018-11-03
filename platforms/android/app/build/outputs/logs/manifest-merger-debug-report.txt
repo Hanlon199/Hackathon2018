@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [:tbxml-android:] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\0dcf79ca2d2fd5426771f949f3ccbe1c\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\d815229402cd6dd95cb8970a7e42e156\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\dd70722b1e8518366a9e1cdd3181505a\AndroidManifest.xml:2:1-9:12
@@ -19,9 +19,9 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\hanlo\.gr
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\3595ed9b186a79b23ef90d17e5a9a72c\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e01f0553fb19c72e0f43f0795cd3a9c8\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b5771da4fc968ee5470d44b506df3e07\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:2:102-143
 		INJECTED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml
@@ -196,6 +196,10 @@ uses-feature#android.hardware.location.gps
 ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:21:5-66
 	android:name
 		ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:21:19-63
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:22:5-89
+	android:name
+		ADDED from C:\Users\hanlo\Sublime_Projects\hackathon2018\platforms\android\app\src\main\AndroidManifest.xml:22:22-86
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\hanlo\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\6d952bfcafbf387bc987f316a0664974\AndroidManifest.xml:23:9-26:75
 	android:exported

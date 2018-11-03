@@ -48,6 +48,9 @@
     <feature name="PluginStreetViewPanorama">
         <param name="android-package" value="plugin.google.maps.PluginStreetViewPanorama" />
     </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
     <name>Political_App</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

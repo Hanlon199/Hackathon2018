@@ -5,3 +5,11 @@
 .ta-center{
 	text-align: center;
 }
+.img-parties{
+	height: 125px;
+	width: 125px;
+}
+
+.form-border{
+	border: 1px solid black;
+}
