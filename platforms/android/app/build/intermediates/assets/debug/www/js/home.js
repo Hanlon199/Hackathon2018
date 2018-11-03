@@ -2,39 +2,81 @@ function searchLocation(location){
 	window.location.href = 'selection.html';
 }
 
-// document.addEventListener("deviceready", function() {
-//   var div = document.getElementById("map_canvas");
 
-//   // Create a Google Maps native view under the map_canvas div.
-//   var map = plugin.google.maps.Map.getMap(div);
 
-//   // If you click the button, do something...
-//   var button = document.getElementById("button");
-//   button.addEventListener("click", function() {
 
-//     // Move to the position with animation
-//     map.animateCamera({
-//       target: {lat: 37.422359, lng: -122.084344},
-//       zoom: 17,
-//       tilt: 60,
-//       bearing: 140,
-//       duration: 5000
-//     });
+// (function (global) {
+//     "use strict";
+ 
+//     function onDeviceReady () {
+//     }
+ 
+//     document.addEventListener("deviceready", onDeviceReady, false);
+// })(window);
 
-//     // Add a maker
-//     var marker = map.addMarker({
-//       position: {lat: 37.422359, lng: -122.084344},
-//       title: "Welecome to \n" +
-//              "Cordova GoogleMaps plugin for iOS and Android",
-//       snippet: "This plugin is awesome!",
-//       animation: plugin.google.maps.Animation.BOUNCE
-//     });
 
-//     // Show the info window
-//     marker.showInfoWindow();
+// (function (global) {
+//     "use strict";
+ 
+//     function onDeviceReady () {
+//         document.addEventListener("online", onOnline, false);
+//         document.addEventListener("resume", onResume, false);
+//         loadMapsApi();
+//     }
+ 
+//     function onOnline () {
+//         loadMapsApi();
+//     }
+ 
+//     function onResume () {
+//         loadMapsApi();
+//     }
+ 
+//     function loadMapsApi () {
+//         // if online and maps not already loaded
+//         //    then load maps api
+//     }
+ 
+//     document.addEventListener("deviceready", onDeviceReady, false);
+// })(window);
 
-//   });
+// function loadMapsApi () {
+//     if (navigator.connection.type === Connection.NONE || (global.google !== undefined && global.google.maps)) {
+//         return;
+//     }
+//     // load maps api
+// }
 
-// }, false);
+// (function (global) {
+//     "use strict";
+ 
+//     function onDeviceReady () {
+//         document.addEventListener("online", onOnline, false);
+//         document.addEventListener("resume", onResume, false);
+//         loadMapsApi();
+//     }
+ 
+//     function onOnline () {
+//         loadMapsApi();
+//     }
+ 
+//     function onResume () {
+//         loadMapsApi();
+//     }
+ 
+//     function loadMapsApi () {
+//         if(navigator.connection.type === Connection.NONE || google.maps) {
+//             return;
+//         }
+//         $.getScript('https://maps.googleapis.com/maps/api/js?key=API_KEY&sensor=true&callback=onMapsApiLoaded');
+//     }
+ 
+//     global.onMapsApiLoaded = function () {
+//         // Maps API loaded and ready to be used.
+//         var map = new google.maps.Map(document.getElementById("map_canvas"), {});
+//     };
+ 
+//     document.addEventListener("deviceready", onDeviceReady, false);
+// })(window);
 
 

@@ -26,34 +26,79 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="27"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/home.css">
         <title>politics app</title>
     </head>
+    <script type="text/javascript">
+    document.addEventListener("deviceready", function() {
+      var div = document.getElementById("map_canvas");
+
+      // Create a Google Maps native view under the map_canvas div.
+      var map = plugin.google.maps.Map.getMap(div);
+
+      // If you click the button, do something...
+      var button = document.getElementById("button");
+      button.addEventListener("click", function() {
+
+        // Move to the position with animation
+        map.animateCamera({
+          target: {lat: 37.422359, lng: -122.084344},
+          zoom: 17,
+          tilt: 60,
+          bearing: 140,
+          duration: 5000
+        });
+
+        // Add a maker
+        var marker = map.addMarker({
+          position: {lat: 37.422359, lng: -122.084344},
+          title: "Welecome to \n" +
+                 "Cordova GoogleMaps plugin for iOS and Android",
+          snippet: "This plugin is awesome!",
+          animation: plugin.google.maps.Animation.BOUNCE
+        });
+
+        // Show the info window
+        marker.showInfoWindow();
+
+      });
+
+    }, false);
+
+    </script>
     <style type="text/css">
-        #map_canvas { /* Must bigger size than 100x100 pixels */
-          width: 100%;
-          height: 300px;
-        }
         button {
           padding: .5em;
           margin: .5em;
         }
+        body,html {
+            height: 100% !important;
+        }
+        #map_canvas { 
+              /* The image used */
+              background-image: url("img/map.png");
+
+              /* Full height */
+              height: 75%; 
+              width: 100%;
+              /* Center and scale the image nicely */
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
     </style>
     <body>
-        <div class="container">
-            <div class="img-fluid">
-                <img src="img/banner.png" style="width: 100%; height: 20%; background-repeat: none;">
-                
-            </div>
-            <div id="map_canvas">
-                <button id="button">Search Location</button>
-            </div>
-            <div class="row">
-                <div class="margin-auto">
-                    <!-- <h1 class="ta-center">Political App</h1> -->
-                    <button class="btn btn-primary" onclick="searchLocation('test')">Search</button>
-                </div>
+    <div class="deviceReady">
+        <img src="img/banner.png" style="width: 100%; height: 20%; background-repeat: none;">
+        <div id="map_canvas" style="height: 100%; width: 100%;">
+          <button id="button">Search location</button>
+        </div>
+        <div class="row">
+            <div class="margin-auto">
+                <!-- <h1 class="ta-center">Political App</h1> -->
+                <button class="btn btn-primary" onclick="searchLocation('test')">Search</button>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
@@ -62,5 +107,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
     </body>
 </html>
