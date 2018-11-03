@@ -43,16 +43,80 @@
 
 
   <title>Selection Screen</title>
+  <style type="text/css">
+  body, html {
+    height: 100%;
+  }
+  .bg { 
+      /* The image used */
+      background-image: url("img/list-background.png");
+
+      /* Full height */
+      height: 100%; 
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  </style>
 </head>
 
 <body>
-
-  <div>
-    <button type="button" id="newsButton" class="block" onclick="location.href = 'news.html';">News</button>
-    <button type="button" id="candidateButton" class="block" onclick="location.href = 'candidate.html';">Candidates</button>
-    <button type="button" id="pollsButton" class="block" onclick="location.href = 'polls.html';">Polls</button>
-    <button type="button" id="partiesButton" class="block" onclick="location.href = 'parties.html';">Parties</button>
-    <button type="button" id="propositionsButton" class="block" onclick="location.href = 'propositions.html';">Propositions</button>
+<!--   <div><h5 class="card-title" sty>News</h5></div>
+  <div><h5 class="card-title" sty>Candidates</h5></div>
+  <div><h5 class="card-title" sty>Polls</h5></div>
+  <div><h5 class="card-title" sty>Parties</h5></div>
+  <div><h5 class="card-title" sty>Propositions</h5></div> -->
+  <div class="bg">
+    <div class="row">
+      <div class="col-md-6" style="opacity: 0.80">
+        <div class="card">
+          <div class="card-body" onclick="location.href = 'news.html';">
+            <h5 class="card-title" style="text-align: center;">News</h5>
+          </div>
+        </div>  
+      </div>
+      
+      <div class="col-md-6" style="opacity: 0.80">
+        <div class="card">
+          <div class="card-body" onclick="location.href = 'candidate.html';">
+            <h5 class="card-title" style="text-align: center;">Candidates</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4" style="opacity: 0.80">
+        <div class="card">
+          <div class="card-body" onclick="location.href = 'polls.html';">
+            <h5 class="card-title" style="text-align: center;">Polls</h5>
+          </div>
+        </div>  
+      </div>
+      
+      <div class="col-md-4" style="opacity: 0.80">
+        <div class="card">
+          <div class="card-body" onclick="location.href = 'parties.html';">
+            <h5 class="card-title" style="text-align: center;">Parties</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="opacity: 0.80">
+        <div class="card">
+          <div class="card-body" onclick="location.href = 'propositions.html';">
+            <h5 class="card-title" style="text-align: center;">Propositions</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- <button type="button" id="newsButton" class="btn btn-primary block" >News</button> -->
+      <!-- <button type="button" id="candidateButton" class="btn btn-primary block" >Candidates</button> -->
+      <!-- <button type="button" id="pollsButton" class="btn btn-primary block" >Polls</button> -->
+      <!-- <button type="button" id="partiesButton" class="btn btn-primary block">Parties</button> -->
+      <!-- <button type="button" id="propositionsButton" class="btn btn-primary block" >Propositions</button> -->
+      
+    </div>
   </div>
 
 

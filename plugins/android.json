@@ -15,6 +15,9 @@
       "PLAY_SERVICES_VERSION": "15.0.1",
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "com.hackathon2018.political_app"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.hackathon2018.political_app"
     }
   },
   "dependent_plugins": {}
