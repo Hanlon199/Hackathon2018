@@ -1,12 +1,21 @@
 .block {
-    display: block;
-    width: 100%;
-    border: none;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    background-color: #D3D3D3;
-    border: 1px solid #C0C0C0;
-    margin-top: 10px;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #D3D3D3;
+  border: 1px solid #C0C0C0;
+  margin-top: 10px;
+}
+
+.headshot {
+  border-radius: 50%;
+  box-shadow: 0 0 12px 0 hsla(0, 0%, 76%, .5);
+  height: 50px;
+  object-fit: cover;
+  padding: 0;
+  width: 50px;
 }
